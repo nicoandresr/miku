@@ -1,0 +1,15 @@
+fab {
+  & button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    color: #222;
+    background-color: #387ef5;
+    box-shadow: 2px 2px 5px 1px black;
+  }
+}

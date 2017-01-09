@@ -3,12 +3,14 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { NavBarComponent } from '../components/nav-bar';
+import { ModalComponent } from '../components/modal';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    NavBarComponent
+    NavBarComponent,
+    ModalComponent
   ],
   imports: [
     IonicModule.forRoot(MyApp)
